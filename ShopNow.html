@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaLToo</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- title Icon-->
+    <link rel="icon" href="./image/banner.jpg" type="image/icon">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.icon">
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header" style="
+display: flex;
+align-items: center;
+padding:2px 5%;
+justify-content: space-between;
+background:white;">
+
+        <a href="./index.html" class="logo"> <i class="fas fa-shopping-cart"></i> FaLToo </a>
+        &nbsp;
+        <nav class="navbar" style="
+    font-size: 1.7rem;
+    margin:0.1%;">
+            <a href="#home" id="hov">home</a>
+            <a href="#features" id="hov">features</a>
+            <a href="#products" id="hov">products</a>
+            <a href="#categories" id="hov">categories</a>
+            <a href="#review" id="hov">review</a>
+            <a href="#blogs" id="hov">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn">&nbsp;<span>0</span></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img alt="Realme GT Neo 3 MORE PICTURES" src=https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo3-new.jpg>
+                <div class="content">
+                    <h3>Realme GT Neo 3</h3>
+                    <span class="price"> $542</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img alt="Samsung Galaxy S22 5G MORE PICTURES" src=https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg>
+                <div class="content">
+                    <h3> Samsung S22</h3>
+                    <span class="price"> $1,145</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img alt="Apple iPhone 13
+                    MORE PICTURES" src=https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg>
+                <div class="content">
+                    <h3>iPhone 13</h3>
+                    <span class="price"> $832</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="total"> total : $2,518 </div>
+            <a href="checkout.html" class="btn">checkout</a>
+        </div>
+
+        <form action="./connect.php" class="login-form">
+            <h3>login now</h3>
+            <input type="email" name="user" id="user" placeholder="your email" class="box">
+            <input type="password" name="pass" id="pass" placeholder="your password" class="box">
+            <p>forget your password <a href="FormValidation.html">click here</a></p>
+            <p>don't have an account <a href="FormValidation.html">create now</a></p>
+            <button type="submit" name="submit" class="btn"> Login Now </button>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Brand New and <span>Latest</span> products for you</h3>
+            <p style="color:aliceblue ;">When it comes to business store, our store provides you with latest and first handle models. &nbsp; Still Confuse? Look for More below.</p>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- Shop section starts  -->
+
+    <section class="features" id="features">
+
+        <h1 class="heading"><span>Realme</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/realme-10-pro-plus.jpg" alt="">
+                <h3>Realme 10 Pro+</h3>
+                <p>Dimensity 1080 Chipset<br> 67W SuperVOOC Charger <br> 108MP ProLight Camera <br> Ram and Storage: 16GB,256GB!</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/realme-c33.jpg" alt="">
+                <h3> Realme C33</h3>
+                <p>Unisoc T616 Processor <br> 18W Quick Charger <br> 50MP Ai triple Camera <br> Ram and Storage: 4/6GB,64/128GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-50i-prime.jpg" alt="">
+                <h3>Narzo 50i Prime</h3>
+                <p>Unisoc Octa-core Processor <br> 5000mAh battery <br> 8MP Ai Camera <br> Ram and Storage: 3/4GB,32/64GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-50-pro-5g.jpg" alt="">
+                <h3>Narzo 50 Pro</h3>
+                <p>Dimensity 810 Processor <br> 33W Dart Charger <br> 48MP Ultra HD Camera <br> Ram and Storage: 4/6GB,64/128GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo3-new.jpg" alt="">
+                <h3>Realme GT Neo 3</h3>
+                <p>dimensity 8100 Processor <br> 80W SuperDart Charger <br> Sony IMX766 OIS Camera <br> Ram and Storage: 12GB,256GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/realme-9i-r1.jpg" alt="">
+                <h3>Realme 9i</h3>
+                <p>Qualcomm Snapdragon 680 <br> 33W Dart Charger <br> 50MP Ai triple Camera <br> Ram and Storage: 4/6GB,64/128GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/realme-v11-s-5g.jpg" alt="">
+                <h3>Realme V11s 5G</h3>
+                <p>Qualcomm Snapdragon 680 <br> 33W Dart Charger <br> 50MP Ai triple Camera <br> Ram and Storage: 4/6GB,64/128GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/realme-narzo-50a-prime.jpg" alt="">
+                <h3>Narzo 50A Prime</h3>
+                <p>MediaTek Helio G96<br> 33W Dart Charger <br> 50MP Ai triple Camera <br> Ram and Storage: 4/6GB,64/128GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/realme-8-pro-ofic.jpg" alt="">
+                <h3>Realme 8Pro</h3>
+                <p>Qualcomm Snapdragon 720G <br> 50W SuperDart Charger <br> 108MP Ultra Quad Camera <br> Ram and Storage: 6/8GB,128GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+        </div>
+
+
+        <h1 class="heading"><span>Apple</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-129-2022.jpg" alt="">
+                <h3>iPad Pro 12.9 (2022)</h3>
+                <p> Apple M2 chip 8-Core Neural engine 8GB RAM on models with 128GB, 256GB, or 512GB storage 12MP Ultra Wide camera, 122° field of view ƒ/2.4 aperture
+                </p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg" alt="">
+                <h3> iPhone 14 Plus</h3>
+                <p>Apple M2 chip 8-Core Neural engine 8GB RAM on models with 128GB, 256GB, or 512GB storage 12MP Ultra Wide camera, 122° field of view ƒ/2.4 aperture</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2022.jpg" alt="">
+                <h3>Iphone SE (2022)</h3>
+                <p>A15 Bionic chip 6-Core Neural engine 4GB RAM on models with 128GB, 256GB, storage 12MP Main camera, Digital Zoom 5x <br> ƒ/1.8 aperture</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg" alt="">
+                <h3>Iphone 13 mini</h3>
+                <p>A15 Bionic chip 6-Core Neural engine 4GB RAM on models with 128GB, 256GB, storage 12MP Main camera, Digital Zoom 5x <br> ƒ/1.8 aperture</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg" alt="">
+                <h3>Iphone 12 Pro</h3>
+                <p>Apple A14 chip 6-Core Neural engine 8GB RAM on models with 128GB, 256GB, or 512GB storage 12MP Ultra Wide camera, 122° field of view ƒ/2.4 aperture</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-pro-11-2020.jpg" alt="">
+                <h3>IPad Pro 11 (2020)</h3>
+                <p>Apple M2 chip 8-Core Neural engine 8GB RAM on models with 128GB, 256GB, or 512GB storage 12MP Ultra Wide camera, 122° field of view ƒ/2.4 aperture</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro-max-.jpg" alt="">
+                <h3>Iphone 11 Pro</h3>
+                <p>A15 Bionic chip 6-Core Neural engine 4GB RAM on models with 128GB, 256GB storage 12MP Main camera, Digital Zoom upto 5x <br> ƒ/1.8 aperture </p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-ipad-air-2022-new.jpg" alt="">
+                <h3>IPad Air (2022)</h3>
+                <p>Apple M1 chip 8-Core Neural engine 8GB RAM on models with 128GB, 256GB, or 512GB storage 12MP Ultra Wide camera, 122° field of view ƒ/2.4 aperture</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-8-new.jpg" alt="">
+                <h3>IPhone 8</h3>
+                <p>A11 Bionic chip 6-Core Neural engine 4GB RAM on models with 128GB, 256GB, storage 12MP Main camera, Digital Zoom 5x <br> ƒ/1.8 aperture</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+        </div>
+
+        <h1 class="heading"><span>Xiaomi</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-pad.jpg" alt="">
+                <h3>Redmi Pad</h3>
+                <p>90Hz buttery smooth display High-performance MediaTek Helio G99 Long-lasting 8000mAh (typ) battery Flagship-level unibody design</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-12-pro-discovery-explorer.jpg" alt="">
+                <h3>Redmi Note 12 Explorer</h3>
+                <p>Chipset: MediaTek Dimensity 1080 Battery: 4300mAh Main Camera: 200MP Ram and Storage: 8gb,256gb Dual SIM
+                </p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/xiaomi-a1.jpg" alt="">
+                <h3>Redmi A1</h3>
+                <p>8MP AI dual camera Huge 5000mAh battery Powerful and efficient processor Large 6.52" HD+ display 20:9 full screen display</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/xiaomi-civi2.jpg" alt="">
+                <h3>Xiaomi Civi 2</h3>
+                <p>Chipset: Snapdragon 7 Gen 1(4nm) Battery: 4500mAh Main Camera: 50MP, f/1.8, 2160p Android Version: 12, 13 Dual SIM</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-11-prime-4g.jpg" alt="">
+                <h3>Redmi 11 Prime</h3>
+                <p>Chipset: MediaTek Helio G99 Battery: 5000mAh Main Camera: 50MP, f/1.8 Ram and Storage: 4/6gb,128gb <br> Dual SIM</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-m5.jpg" alt="">
+                <h3>Poco M5</h3>
+                <p>Chipset: MediaTek Helio G99 Battery: 5000mAh Main Camera: 50MP Ram and Storage: 4/6gb,256gb <br> Dual SIM</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-11r.jpg" alt="">
+                <h3>Redmi Note 11R</h3>
+                <p>Chipset: MediaTek Dimensity 700 5G Battery: 5000mAh Main Camera: 50MP, f/1.8 Ram and Storage: 4/6/8gb,128gb Dual SIM</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mix-fold-2.jpg" alt="">
+                <h3>Mix Fold 2</h3>
+                <p>Chipset: Qualcomm Snapdragon 8+ Gen Battery: 4500mAh Main Camera: 50MP, f/1.8 Ram and Storage: 12gb,256/512gb/1tb Dual SIM</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k50i-5g.jpg" alt="">
+                <h3>Redmi K50i 5G</h3>
+                <p>Chipset: MediaTek Dimensity 8100 Battery: 4980mAh Main Camera: 108MP, f/1.9 Ram and Storage: 6/8gb,128/256gb Dual SIM</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+        </div>
+
+        <h1 class="heading"><span>Samsung</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold4-5g.jpg" alt="">
+                <h3>Galaxy Z Fold4</h3>
+                <p>Octa-core 3.18GHz CPU <br> 120Hz dynamic Amoled display <br> 50MP Triple Camera <br> Ram and Storage : 12GB, 256GB </p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip4-5g.jpg" alt="">
+                <h3> Galaxy Z Flip4</h3>
+                <p>Octa-core 3.18GHz CPU <br> 120Hz dynamic Amoled display <br> 12MP f1.8 Dual Camera <br> Ram and Storage : 8GB, 128GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-m13-5g.jpg" alt="">
+                <h3>Galaxy M13 5G</h3>
+                <p>Octa-core 2GHz CPU <br> 60Hz LCD display <br> 50MP Triple Camera <br> Ram and Storage : 4GB, 64GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-ultra-5g-.jpg" alt="">
+                <h3>Galaxy S21 Ultra</h3>
+                <p>Octa-core 3.18GHz CPU <br> 120Hz Super Smooth dynamic Amoled<br> 108MP Quad Camera <br> Ram and Storage : 16GB, 512GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f02s.jpg" alt="">
+                <h3>Galaxy F02s</h3>
+                <p>Octa-core 1.8GHz CPU <br> 60Hz LCD display <br> 13MP Triple Camera <br> Ram and Storage : 4GB, 32GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-f52-5g.jpg" alt="">
+                <h3>Samsung F52 5G</h3>
+                <p>Octa-core 2GHz CPU <br> 60Hz LCD display <br> 50MP Triple Camera <br> Ram and Storage : 4GB, 64GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-ultra-5g.jpg" alt="">
+                <h3>Galaxy S22 Ultra</h3>
+                <p>Octa-core 3.18GHz CPU <br> 120Hz dynamic Amoled display <br> 50MP Triple Camera <br> Ram and Storage : 12GB, 256GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-tab-s8.jpg" alt="">
+                <h3>Galaxy Tab S8</h3>
+                <p>Octa-core 3.18GHz CPU <br> 120Hz dynamic Amoled display <br> 50MP Triple Camera <br> Ram and Storage : 12GB, 512GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-plus-5g.jpg" alt="">
+                <h3>Galaxy S22+ 5G</h3>
+                <p>Octa-core 3.18GHz CPU <br> 120Hz dynamic Amoled display <br> 50MP Triple Camera <br> Ram and Storage : 12GB, 256GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+        </div>
+
+        <h1 class="heading"><span>OnePlus</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-2t.jpg" alt="">
+                <h3>Nord 2T</h3>
+                <p> 80W SuperVOOC charger <br> 50MP OIS Triple Camera <br> Dimensity 1300 Chipset <br> 90 Hz FHD+ AMOLED Display</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-ce-2-lite-5g-0.jpg" alt="">
+                <h3> Nord CE 2 Lite 5G</h3>
+                <p>33W SuperVOOC charger <br> 64MP AI Triple Camera <br> 695 5G Snapdragon <br> 120 Hz FHD+ AMOLED Display</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-2-5g-new.jpg" alt="">
+                <h3>Nord 2 5G</h3>
+                <p>65W Fast charger <br> 64MP AI Triple Camera <br> Dimensity 900 Chipset <br> 90 Hz FHD+ AMOLED Display</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-n10-5g-.jpg" alt="">
+                <h3>Nord N10 5G</h3>
+                <p>150W SuperVOOC charger <br> 50MP OIS Triple Camera <br> 8+ Gen 1 SnapDragon Chipset <br> 3d cooling System 2.0</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oneplus-9-pro-.jpg" alt="">
+                <h3>Oneplus 9 Pro</h3>
+                <p>50W Wrap charger <br> 50MP OIS Triple Camera <br> 888 Qualcomm Snapdragon <br> 120 Hz AMOLED Display</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oneplus-8t.jpg" alt="">
+                <h3>OnePlus 8T</h3>
+                <p>80W SuperVOOC charger <br> 50MP OIS Triple Camera <br> Dimensity 1300 Chipset <br> 90 Hz FHD+ AMOLED Display</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oneplus-10-pro.jpg" alt="">
+                <h3>OnePlus 10 Pro</h3>
+                <p>80W SuperVOOC charger <br> 50MP OIS Triple Camera <br> Dimensity 1300 Chipset <br> 90 Hz FHD+ AMOLED Display</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oneplus-10t-5g.jpg" alt="">
+                <h3>Ace Pro</h3>
+                <p>80W SuperVOOC charger <br> 50MP OIS Triple Camera <br> Dimensity 1300 Chipset <br> 90 Hz FHD+ AMOLED Display</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-n300-5g.jpg" alt="">
+                <h3>Nord N300</h3>
+                <p>80W SuperVOOC charger <br> 50MP OIS Triple Camera <br> Dimensity 1300 Chipset <br> 90 Hz FHD+ AMOLED Display</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+        </div>
+
+        <h1 class="heading"><span>Oppo</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-a1-pro.jpg" alt="">
+                <h3>Oppo A1 Pro</h3>
+                <p>MediaTek Helio G35 <br> 13MP Ai Triple Camera <br> 5000mAh Long-lasting <br> Ram and Storage: 3/4GB,32/64GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-k10x-.jpg" alt="">
+                <h3> Oppo K10x</h3>
+                <p>MediaTek Dimensity 810 <br> 33W SuperVOOC Charger <br> 5000mAh Long-lasting battery <br> Ram and Storage: 8GB,128GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8z-5g.jpg" alt="">
+                <h3>Oppo Reno8 Z</h3>
+                <p>MediaTek Dimensity 8100 <br> 80W SuperVOOC Charger <br> 50MP Sony IMX766 Camera <br> Ram and Storage: 12GB,256GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-reno8-pro-.jpg" alt="">
+                <h3>Oppo Reno8 Pro+</h3>
+                <p>MediaTek Dimensity 8100 <br> 80W SuperVOOC Charger <br> 50MP Sony IMX766 Camera <br> Ram and Storage: 12GB,256GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-reno7-4g.jpg" alt="">
+                <h3>Oppo F21 Pro</h3>
+                <p>Octa-Core SnapDragon 680<br> 90Hz AMOLED display <br> 33W SuperVOOC <br> Ram and Storage: 8GB,128GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-pad.jpg" alt="">
+                <h3>Oppo Pad</h3>
+                <p>Qualcomm SnapDragon 680 <br> 7100mAH Battery <br> 60Hz Display<br> Ram and Storage: 4GB,64/128GB</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x5-pro.jpg" alt="">
+                <h3>Find X5 Pro</h3>
+                <p> MediaTek Dimensity 8100 <br> 80W SuperVOOC Charger <br> 50MP Sony IMX766 Camera <br> Ram and Storage: 12GB,256GB </p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-a95.jpg" alt="">
+                <h3>Oppo A95</h3>
+                <p> MediaTek Dimensity 8100 <br> 80W SuperVOOC Charger <br> 50MP Sony IMX766 Camera <br> Ram and Storage: 12GB,256GB </p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/oppo-find-n.jpg" alt="">
+                <h3>Oppo Find N</h3>
+                <p> MediaTek Dimensity 8100 <br> 80W SuperVOOC Charger <br> 50MP Sony IMX766 Camera <br> Ram and Storage: 12GB,256GB </p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- Shop section ends -->
+
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./image/54852.jpg" alt="">
+                    <p>One of the best site out there. Prices are extreme high but overall it has quality products.</p>
+                    <h3>Aryan Rana</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/59190.jpg" alt="">
+                    <p>Product quality is good and my package was delivered earlier than expected.</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/56109.jpg" alt="">
+                    <p> i hate this site. first of all prices are sky-rocket and then there's no return policy, i mean what a mess.</p>
+                    <h3>Eren Dogra</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/5844.jpg" alt="">
+                    <p>this site is good for first comes first serve basis. grab smartphone as soon as they launch.</p>
+                    <h3>Rihaan Dhadiyal</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./image/44272.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by User </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                    </div>
+                    <h3> Everything You Need is Here</h3>
+                    <p>Why i prefer this site? let me explain it in my blog.</p>
+                    <a href="./Dio_Prank.html" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./image/3390.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                    </div>
+                    <h3>Latest Features Smartphone</h3>
+                    <p>iam tech-holic. this site provide latest updates absolutely fast.</p>
+                    <a href="./Dio_Prank.html" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./image/3392.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                    </div>
+                    <h3>Latest And Best Products </h3><br> &nbsp;
+                    <p>what you want from a mobile website? smartphone ofcourse.</p> <br>
+                    <a href="./Dio_Prank.html" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> Namaste <i class="fas fa-shopping-cart"></i> </h3>
+                <p>thank you exploring our website.</p>
+                <div class="share">
+                    <a target="_blank" href="#" class="fab fa-facebook-f"> </a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +917415192154 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +918962315400 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> ranaAryan@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> Sneha@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> Deepali@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> Ankita@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Himachal Pradesh, india - 176001 </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> mr. Rana Aryan </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script>
+        var swiper = new Swiper(".review-slider", {
+            loop: true,
+            spaceBetween: 20,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            centeredSlides: true,
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1020: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

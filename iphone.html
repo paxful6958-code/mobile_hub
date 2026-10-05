@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaLToo</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- title Icon-->
+    <link rel="icon" href="./image/banner.jpg" type="image/icon">
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.icon">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header" style="
+display: flex;
+align-items: center;
+padding:2px 5%;
+justify-content: space-between;
+background:white;">
+
+        <a href="./index.html" class="logo"> <i class="fas fa-shopping-cart"></i> MOBILE_HUB</a>
+        &nbsp;
+        <nav class="navbar" style="
+    font-size: 1.7rem;
+    margin:0.1%;">
+            <a href="#home" id="hov">home</a>
+            <a href="#features" id="hov">features</a>
+            <a href="#products" id="hov">products</a>
+            <a href="#categories" id="hov">categories</a>
+            <a href="#review" id="hov">review</a>
+            <a href="#blogs" id="hov">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn">&nbsp;<span>0</span></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img alt="Realme GT Neo 3 MORE PICTURES" src="https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo3-new.jpg">
+                <div class="content">
+                    <h3>Realme GT Neo 3</h3>
+                    <span class="price"> &#8377 45,000/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img alt="Samsung Galaxy S22 5G MORE PICTURES" src="https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg">
+                <div class="content">
+                    <h3> Samsung S22</h3>
+                    <span class="price"> &#8377 95,000/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img alt="Apple iPhone 13 MORE PICTURES" src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg">
+                <div class="content">
+                    <h3>iPhone 13</h3>
+                    <span class="price"> &#8377 69,000/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : &#8377 209,000/- </div>
+            <a href="checkout.html" class="btn">checkout</a>
+        </div>
+
+        <form action="./connect.php" class="login-form" method="post">
+            <h3>login now</h3>
+            <input type="email" name="user" id="user" placeholder="your email" class="box">
+            <input type="password" name="pass" id="pass" placeholder="your password" class="box">
+            <p>forget your password <a href="FormValidation.html">click here</a></p>
+            <p>don't have an account <a href="FormValidation.html">create now</a></p>
+            <button type="submit" name="submit" class="btn"> Login Now </button>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Brand New and <span>Latest</span> products for you</h3>
+            <p style="color:aliceblue ;">When it comes to business store, our store provides you with latest and first handle models. &nbsp; Still Confuse? Look for More below.</p>
+            <a href="./ShopNow.html" class="btn">shop now</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- Iphone section starts  -->
+
+    <section class="features" id="features">
+
+        <h1 class="heading"><span>Apple</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone18-pro-1.jpg" alt="iPhone 18 Pro">
+                <h3>iPhone 18 Pro</h3>
+                <p>A20 Pro chip (2nm) 6-Core GPU 12GB RAM, up to 2TB storage 48MP Triple camera system 6.3" ProMotion 120Hz display From $1,199</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone18-pro-max-1.jpg" alt="iPhone 18 Pro Max">
+                <h3>iPhone 18 Pro Max</h3>
+                <p>A20 Pro chip (2nm) 6-Core GPU 12GB RAM, up to 2TB storage 48MP Triple camera system 6.9" ProMotion 120Hz display From $1,299</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-duo.jpg" alt="iPhone Duo">
+                <h3>iPhone Duo (Foldable)</h3>
+                <p>Apple's first foldable iPhone A20 Pro chip, 12GB RAM, up to 2TB storage 7.6" inner folding + 5.4" cover display Liquid metal crease-free hinge, Touch ID Dual 48MP cameras | From $1,999</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-air.jpg" alt="iPhone Air">
+                <h3>iPhone Air</h3>
+                <p>A19 Pro chip 6-Core GPU 12GB RAM, up to 1TB storage 48MP Single camera system Ultra-thin 5.64mm titanium design 6.5" ProMotion display | From $1,099</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17.jpg" alt="iPhone 17">
+                <h3>iPhone 17</h3>
+                <p>A19 chip 5-Core GPU 8GB RAM, 256GB/512GB storage 48MP Dual Fusion camera system 6.1" ProMotion 120Hz display From $899</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17e.jpg" alt="iPhone 17e">
+                <h3>iPhone 17e</h3>
+                <p>A19 chip 5-Core GPU 8GB RAM, 256GB/512GB storage 48MP Single camera system 6.1" Super Retina XDR display From $699</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16.jpg" alt="iPhone 16">
+                <h3>iPhone 16</h3>
+                <p>A18 chip 5-Core GPU 8GB RAM, 128GB storage 48MP Dual camera system 6.1" Super Retina XDR display From $799</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-plus.jpg" alt="iPhone 14 Plus">
+                <h3>iPhone 14 Plus</h3>
+                <p>A15 Bionic chip 5-Core GPU 6GB RAM, 128GB/256GB storage 12MP Dual camera, ƒ/1.5 aperture 6.7" Super Retina XDR display</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-se-2022.jpg" alt="iPhone SE (2022)">
+                <h3>iPhone SE (2022)</h3>
+                <p>A15 Bionic chip 4-Core GPU 4GB RAM, 64GB/128GB/256GB storage 12MP Main camera, ƒ/1.8 aperture 4.7" Retina HD display</p>
+                <a href="#" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Iphone section ends -->
+
+    <!-- categories section starts  -->
+
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> Product <span>Category</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./image/oneplus.jfif" alt="">
+                <h3>ONEPLUS</h3>
+                <p>upto 45% off</p>
+                <a href="./Oneplus.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/xiaomi-33319.png" alt="">
+                <h3>XIAOMI </h3>
+                <p>upto 45% off</p>
+                <a href="./xiaomi.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/samsung-logo-png-1286.png" alt="">
+                <h3>SAMSUNG</h3>
+                <p>upto 45% off</p>
+                <a href="./samsung.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/iphone-logo-527.png" alt="">
+                <h3>IPHONE</h3>
+                <p>upto 25% off</p>
+                <a href="#iphone" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/realme-mobile-logo-icon.png" alt="">
+                <h3>REALME</h3>
+                <p>upto 55% off</p>
+                <a href="./realme.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/oppo-logo-40759.png" alt="">
+                <h3>OPPO</h3>
+                <p>upto 45% off</p>
+                <a href="./oppo.html" class="btn">shop now</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- categories section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./image/54852.jpg" alt="">
+                    <p>One of the best site out there. Prices are extreme high but overall it has quality products.</p>
+                    <h3>Aryan Rana</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/59190.jpg" alt="">
+                    <p>Product quality is good and my package was delivered earlier than expected.</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/56109.jpg" alt="">
+                    <p> i hate this site. first of all prices are sky-rocket and then there's no return policy, i mean what a mess.</p>
+                    <h3>Eren Dogra</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/5844.jpg" alt="">
+                    <p>this site is good for first comes first serve basis. grab smartphone as soon as they launch.</p>
+                    <h3>Rihaan Dhadiyal</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./image/44272.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by User </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                    </div>
+                    <h3> Everything You Need is Here</h3>
+                    <p>Why i prefer this site? let me explain it in my blog.</p>
+                    <a href="./Dio_Prank.html" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./image/3390.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                    </div>
+                    <h3>Latest Features Smartphone</h3>
+                    <p>iam tech-holic. this site provide latest updates absolutely fast.</p>
+                    <a href="./Dio_Prank.html" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./image/3392.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                    </div>
+                    <h3>Latest And Best Products </h3><br> &nbsp;
+                    <p>what you want from a mobile website? smartphone ofcourse.</p> <br>
+                    <a href="./Dio_Prank.html" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> Namaste <i class="fas fa-shopping-cart"></i> </h3>
+                <p>thank you exploring our website.</p>
+                <div class="share">
+                    <a target="_blank" href="#" class="fab fa-facebook-f"> </a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> 2026 | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script>
+        var swiper = new Swiper(".review-slider", {
+            loop: true,
+            spaceBetween: 20,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            centeredSlides: true,
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1020: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

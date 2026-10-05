@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaLToo</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <!-- title Icon-->
+    <link rel="icon" href="./image/banner.jpg" type="image/icon">
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.icon">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header" style="
+display: flex;
+align-items: center;
+padding:2px 5%;
+justify-content: space-between;
+background:white;">
+
+        <a href="./index.html" class="logo"> <i class="fas fa-shopping-cart"></i> FaLToo </a>
+        &nbsp;
+        <nav class="navbar" style="
+    font-size: 1.7rem;
+    margin:0.1%;">
+            <a href="#home" id="hov">home</a>
+            <a href="#features" id="hov">features</a>
+            <a href="#products" id="hov">products</a>
+            <a href="#categories" id="hov">categories</a>
+            <a href="#review" id="hov">review</a>
+            <a href="#blogs" id="hov">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn">&nbsp;<span>0</span></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img alt="Realme GT Neo 3 MORE PICTURES" src=https://fdn2.gsmarena.com/vv/bigpic/realme-gt-neo3-new.jpg>
+                <div class="content">
+                    <h3>Realme GT Neo 3</h3>
+                    <span class="price"> &#8377 45,000/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img alt="Samsung Galaxy S22 5G MORE PICTURES"
+                    src=https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s22-5g.jpg>
+                <div class="content">
+                    <h3> Samsung S22</h3>
+                    <span class="price"> &#8377 95,000/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img alt="Apple iPhone 13
+                    MORE PICTURES" src=https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg>
+                <div class="content">
+                    <h3>iPhone 13</h3>
+                    <span class="price"> &#8377 69,000/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : &#8377 209,000/- </div>
+            <a href="checkout.html" class="btn">checkout</a>
+        </div>
+
+        <form action="./connect.php" class="login-form">
+            <h3>login now</h3>
+            <input type="email" name="user" id="user" placeholder="your email" class="box">
+            <input type="password" name="pass" id="pass" placeholder="your password" class="box">
+            <p>forget your password <a href="FormValidation.html">click here</a></p>
+            <p>don't have an account <a href="FormValidation.html">create now</a></p>
+            <button type="submit" name="submit" class="btn"> Login Now </button>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Brand New and <span>Latest</span> products for you</h3>
+            <p style="color:aliceblue ;">When it comes to business store, our store provides you with latest and first
+                handle models.
+                &nbsp; Still Confuse? Look for More below.</p>
+            <a href="./ShopNow.html" class="btn">shop now</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- misc section starts  -->
+
+    <section class="features" id="features">
+
+        <h1 class="heading"><span>Product</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://fdn.gsmarena.com/imgroot/news/16/09/new-dell-xps-13/inline/gsmarena_003.png" alt="">
+                <h3>Dell XPS 13</h3>
+                <p>Core i3, Core i5, and Core i7 CPUs. While RAM options include 4GB, 8GB, and 16GB, storage options include 128GB, 256GB,
+                512GB, and 1TB.</p>
+                <a href="https://www.amazon.in/Dell-XPS-9315-i7-1250U-ICC-C786506WIN8/dp/B0BGJ7YCTF/ref=sr_1_3?crid=131Y3IHZKK1Q8&keywords=dell+xps&qid=1672983727&s=computers&sprefix=dell+%2Ccomputers%2C295&sr=1-3" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn.gsmarena.com/imgroot/news/22/12/asus-zenbook-14x-oled-space-edition-review/inline/-1200w1/gsmarena_001.jpg" alt="">
+                <h3>Asus Zenbook 14x</h3>
+                <p>The Asus Zenbook 14X OLED Space Edition's 90Hz touchscreen 
+                60Hz and 90Hz refresh rates was noticeable if not major. The panel is set to a 60Hz refresh rate by default
+                </p>
+                <a href="https://www.amazon.in/ASUS-ZenBook-Integrated-Graphics-UM425UA-AM502TS/dp/B08CMQ3S97" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn.gsmarena.com/imgroot/news/22/12/tecno-megabook-s1-laptop/inline/-1200/gsmarena_001.jpg" alt="">
+                <h3>Techno Megabook</h3>
+                <p>The S1 upgrades to a 12th gen Core i7 (35W TDP) with dual-fan cooling. For storage, you can choose between 512GB and 1TB
+                PCIe 4.0 SSDs, RAM is 16GB either way (LPDDR5).</p>
+                <a href="https://www.tecno-mobile.com/pc-tablets/product-detail/product/megabook-t1/" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn.gsmarena.com/imgroot/news/22/12/linkbuds-s-review/inline/-1200w5/gsmarena_001.jpg" alt="">
+                <h3>Sony Link Buds</h3>
+                <p>The LinkBuds S use rather small 5mm dynamic drivers, a 17% reduction over the already small 6mm drivers on the
+                WF-1000XM4. You still get Bluetooth 5.2 connectivity with SBC, AAC, and LDAC support up to 32-bit, 96kHz, 990Kbps</p>
+                <a href="https://www.amazon.in/Sony-WF-LS900N-Wireless-Cancelling-Headphones/dp/B09YL76VSR/ref=sr_1_1_sspa?crid=3PLPGVK909RSP&keywords=sony+link+buds&qid=1672983892&sprefix=sony+link+buds%2Caps%2C251&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn.gsmarena.com/imgroot/news/22/11/vivo-tws-3-tws-3-pro-official/inline/-1200/gsmarena_004.jpg" alt="">
+                <h3>Vivo TWS 3 pro</h3>
+                <p>5Hz to 40kHz range. It has a 3-layer nano-composite diaphragm and measures 12.2mm in size. With Bluetooth 5.3 and LE
+                Audio support, these buds can bring latency down to 55ms.</p>
+                <a href="https://www.amazon.in/Vivo-Bluetooth-Wireless-Earbuds-Enabled/dp/B07WHSJXM2/ref=sr_1_1?crid=3LZ9JR2PK74RN&keywords=vivo%2Btws&qid=1672983946&sprefix=vivo%2Btws%2Caps%2C294&sr=8-1&th=1" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn.gsmarena.com/imgroot/news/22/10/wh-1000xm5-review/inline/-1200w5/gsmarena_021.jpg" alt="">
+                <h3>SONY WH1100</h3>
+                <p>Switching over to LDAC and manually locking it to 990kbps, I got 29 hours, and 53 minutes and also surprisingly close to the AAC figure. The WH-1000XM4
+                its AAC and LDAC figures.</p>
+                <a href="https://www.amazon.in/Sony-WH-1000XM5-Cancelling-Headphones-Connectivity/dp/B09XS7JWHH/ref=sr_1_1_sspa?crid=2ESBTSHFFATQQ&keywords=sony%2Bheadphones&qid=1672984067&sprefix=sony%2Bheadphone%2Caps%2C279&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn.gsmarena.com/imgroot/news/23/01/panasonic-s5ii/inline/-1200/gsmarena_001.jpg" alt="">
+                <h3>SONY LUMIX S5II</h3>
+                <p>The S5II and S5II. courtesy of a new 24.2MP 35mm full-frame
+                CMOS sensor. The new Phase Hybrid Auto-Focus system uses a combination of PDAF and contrast detection systems with 779
+                AF points for continuous human and animal tracking.</p>
+                <a href="https://www.amazon.in/Sony-ILCE-6400L-Mirrorless-Digital-16-50mm/dp/B07NF6J8N5/ref=sr_1_3?crid=MUG4NYE7XW1H&keywords=sony%2Bcamera&qid=1672984017&sprefix=sony%2Bcamera%2Caps%2C287&sr=8-3&th=1" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn.gsmarena.com/imgroot/news/22/08/gopro-hero11-black-images/popup/-207/gsmarena_001.jpg" alt="">
+                <h3>GO Pro hero11</h3>
+                <p>This design dates back to the Hero9 generation, although last year’s model brought a larger sensor and a brand new GP2
+                chip, which enabled video capture at double the frame rate.</p>
+                <a href="https://www.amazon.in/GoPro-HERO9-Black-Stabilization-HyperSmooth/dp/B08GZMKFBQ/ref=sr_1_2?crid=3UXA60NI2S4A&keywords=gopro&qid=1672984118&sprefix=go+pro%2Caps%2C285&sr=8-2" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="https://fdn.gsmarena.com/imgroot/news/21/09/canon-eos-r3/-1200/gsmarena_001.jpg" alt="">
+                <h3>Canon EOS R3</h3>
+                <p>EOS R5 and the R6, the EOS R3 also features Dual Pixel CMOS AF II with 1053 point AF The EOS R3 also makes use of Deep Learning to
+                further enhance eye and body detection.</p>
+                <a href="https://www.amazon.in/Canon-1500D-Digital-Camera-S18-55/dp/B07BS4TJ43/ref=sr_1_1?crid=1DYUXKK7OBFEU&keywords=canon+camera&qid=1672984154&sprefix=canon+%2Caps%2C281&sr=8-1" class="btn" id="add-cart">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- misc section ends -->
+
+    <!-- categories section starts  -->
+
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> Product <span>Category</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./image/oneplus.jfif" alt="">
+                <h3>ONEPLUS</h3>
+                <p>upto 45% off</p>
+                <a href="./Oneplus.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/xiaomi-33319.png" alt="">
+                <h3>XIAOMI </h3>
+                <p>upto 45% off</p>
+                <a href="#xiaomi" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/samsung-logo-png-1286.png" alt="">
+                <h3>SAMSUNG</h3>
+                <p>upto 45% off</p>
+                <a href="./samsung.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/iphone-logo-527.png" alt="">
+                <h3>IPHONE</h3>
+                <p>upto 25% off</p>
+                <a href="./iphone.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/realme-mobile-logo-icon.png" alt="">
+                <h3>REALME</h3>
+                <p>upto 55% off</p>
+                <a href="./realme.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./image/oppo-logo-40759.png" alt="">
+                <h3>OPPO</h3>
+                <p>upto 45% off</p>
+                <a href="./oppo.html" class="btn">shop now</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- categories section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./image/54852.jpg" alt="">
+                    <p>One of the best site out there. Prices are extreme high but overall it has quality products.</p>
+                    <h3>Aryan Rana</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/59190.jpg" alt="">
+                    <p>Product quality is good and my package was delivered earlier than expected.</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/56109.jpg" alt="">
+                    <p> i hate this site. first of all prices are sky-rocket and then there's no return policy, i mean
+                        what
+                        a mess.</p>
+                    <h3>Eren Dogra</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./image/5844.jpg" alt="">
+                    <p>this site is good for first comes first serve basis. grab smartphone as soon as they launch.</p>
+                    <h3>Rihaan Dhadiyal</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./image/44272.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by User </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                    </div>
+                    <h3> Everything You Need is Here</h3>
+                    <p>Why i prefer this site? let me explain it in my blog.</p>
+                    <a href="./Dio_Prank.html" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./image/3390.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                    </div>
+                    <h3>Latest Features Smartphone</h3>
+                    <p>iam tech-holic. this site provide latest updates absolutely fast.</p>
+                    <a href="./Dio_Prank.html" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./image/3392.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                    </div>
+                    <h3>Latest And Best Products </h3><br>
+                    &nbsp;
+                    <p>what you want from a mobile website? smartphone ofcourse.</p> <br>
+                    <a href="./Dio_Prank.html" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> Namaste <i class="fas fa-shopping-cart"></i> </h3>
+                <p>thank you exploring our website.</p>
+                <div class="share">
+                    <a target="_blank" href="#" class="fab fa-facebook-f"> </a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +917415192154 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +918962315400 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> ranaAryan@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> Sneha@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> Deepali@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> Ankita@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Himachal Pradesh, india - 176001 </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+                <img src="image/payment.png" class="payment-img" alt="">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> mr. Rana Aryan </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script>
+    var swiper = new Swiper(".review-slider", {
+        loop: true,
+        spaceBetween: 20,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        centeredSlides: true,
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+            },
+            768: {
+                slidesPerView: 2,
+            },
+            1020: {
+                slidesPerView: 3,
+            },
+        },
+    });
+    </script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
